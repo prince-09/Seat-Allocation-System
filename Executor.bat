@@ -1,1 +1,1 @@
-java -cp .;json-simple-1.1.jar Runner
+java Runner

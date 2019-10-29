@@ -34,22 +34,21 @@ public class InputThread extends Thread {
     }
 
     Student parseToProgram(JSONObject JO) {
+        return new Program((String) JO.get("programID"),
+        (String) JO.get("collegeName"),
+        (String) JO.get("location"),
+        (String) JO.get("degree"),
+        (String) JO.get("branch"),
+        (Long) JO.get("seatCapacity"),
+        (Long) JO.get("seatRemaining"));
 
-        ArrayList<String> preferences = new ArrayList();
-
-        Iterator itr = ((JSONArray) JO.get("collegePreferences")).iterator();
-        while (itr.hasNext())
-            preferences.add((String) itr.next());
-
-        return new Program((String) JO.get("name"), (String) JO.get("studentId"), (String) JO.get("email"),
-                (Long) JO.get("generalRank"), (Long) JO.get("marks"), preferences);
     }
 
     public void run() {
         try {
             if (type == TYPE.STUDENT) {
                 Object obj = new JSONParser().parse(new FileReader("Students.json"));
-                Iterator itr =((JSONArray) ((JSONObject) obj).get("Students")).iterator();
+                Iterator itr = ((JSONArray) ((JSONObject) obj).get("Students")).iterator();
 
                 while (itr.hasNext()) {
                     JSONObject JO = (JSONObject) itr.next();
@@ -60,7 +59,7 @@ public class InputThread extends Thread {
             } else {
 
                 Object obj = new JSONParser().parse(new FileReader("Programs.json"));
-                Iterator itr =((JSONArray) ((JSONObject) obj).get("Programs")).iterator();
+                Iterator itr = ((JSONArray) ((JSONObject) obj).get("Programs")).iterator();
 
                 while (itr.hasNext()) {
                     JSONObject JO = (JSONObject) itr.next();
