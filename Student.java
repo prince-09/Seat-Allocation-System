@@ -6,6 +6,7 @@ public class Student {
     String Name,ID,email;
     int generalrank,marks;
     List<String> collegepreferences;
+    boolean isallocated=false;
 
     public Student(String name, String ID, String email, int generalrank, int marks, List<String> collegepreferences) {
         Name = name;
@@ -62,5 +63,11 @@ public class Student {
 
     public void setCollegepreferences(List<String> collegepreferences) {
         this.collegepreferences = collegepreferences;
+    }
+    public void setisallocated(boolean isallocated){
+        this.isallocated=isallocated;
+    }
+    public boolean getisallocated(){
+        return isallocated;
     }
 }
