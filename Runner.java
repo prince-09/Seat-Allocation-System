@@ -6,7 +6,7 @@ public class Runner{
         
     }
 
-    public HashMap<String, ArrayList<Student>> allocate(ArrayList<Program> programs, ArrayList<Student> students, ArrayList<College> colleges){
+    public HashMap<String, ArrayList<Student>> allocate(ArrayList<Program> programs, ArrayList<Student> students){
         HashMap<String, ArrayList<Student>> finalList = new HashMap<>();
 
         //TODO write code here
