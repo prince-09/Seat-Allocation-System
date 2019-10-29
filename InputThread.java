@@ -3,9 +3,9 @@ import java.io.FileReader;
 import java.util.Iterator;
 import java.util.Map;
 
-import dependencies.org.json.simple.JSONArray;
-import dependencies.org.json.simple.JSONObject;
-import dependencies.org.json.simple.parser.*;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+import org.json.simple.parser.*;
 
 public class InputThread extends Thread {
     public enum TYPE {
@@ -14,6 +14,7 @@ public class InputThread extends Thread {
 
     TYPE type;
     ArrayList outputArray;
+    OnInputCompleteListener listener;
 
     public InputThread(TYPE type, ArrayList array) {
         this.type = type;
@@ -33,7 +34,7 @@ public class InputThread extends Thread {
                 (Long) JO.get("generalRank"), (Long) JO.get("marks"), preferences);
     }
 
-    Student parseToProgram(JSONObject JO) {
+    Program parseToProgram(JSONObject JO) {
         return new Program((String) JO.get("programID"),
         (String) JO.get("collegeName"),
         (String) JO.get("location"),
@@ -56,6 +57,9 @@ public class InputThread extends Thread {
                     outputArray.add(S);
                 }
 
+                listener.onListReady(outputArray);
+                
+
             } else {
 
                 Object obj = new JSONParser().parse(new FileReader("Programs.json"));
@@ -67,10 +71,21 @@ public class InputThread extends Thread {
                     outputArray.add(S);
                 }
 
+                listener.onListReady(outputArray);
+
             }
         } catch (Exception E) {
             E.printStackTrace();
         }
+    }
+
+    public interface OnInputCompleteListener{
+        public void onListReady(ArrayList list);
+    }
+
+
+    public void setOnInputCompleteListener(OnInputCompleteListener listener) {
+        this.listener = listener;
     }
 
 }

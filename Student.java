@@ -74,9 +74,9 @@ public class Student {
         this.isAllocated = isAllocated;
     }
     public void setisallocated(boolean isallocated){
-        this.isallocated=isallocated;
+        this.isAllocated=isallocated;
     }
     public boolean getisallocated(){
-        return isallocated;
+        return isAllocated;
     }
 }
