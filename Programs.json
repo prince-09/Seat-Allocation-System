@@ -1,0 +1,33 @@
+{
+    "Programs": [
+        {
+            "studentId": "S1234",
+            "name": "Student 1",
+            "email": "stud1@abc.com",
+            "generalRank": 20000,
+            "marks": 200,
+            "collegePreferences": [
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "studentId": "S12345",
+            "name": "Student 2",
+            "email": "stud2@abc.com",
+            "generalRank": 22000,
+            "marks": 190,
+            "collegePreferences": [
+                "C4",
+                "C5",
+                "C2",
+                "C1",
+                "C3"
+            ]
+        }
+    ]
+
+}

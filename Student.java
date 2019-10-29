@@ -3,33 +3,35 @@ import java.util.List;
 
 public class Student {
 
-    String Name,ID,email;
-    int generalrank,marks;
-    List<String> collegepreferences;
+    String name, studentId, email;
+    Long generalRank, marks;
+    List<String> collegePreferences;
+    boolean isAllocated;
 
-    public Student(String name, String ID, String email, int generalrank, int marks, List<String> collegepreferences) {
-        Name = name;
-        this.ID = ID;
+    public Student(String name, String studentId, String email, Long generalrank, Long marks, List<String> collegepreferences) {
+        this.name = name;
+        this.studentId = studentId;
         this.email = email;
-        this.generalrank = generalrank;
+        this.generalRank = generalrank;
         this.marks = marks;
-        this.collegepreferences = collegepreferences;
+        this.collegePreferences = collegepreferences;
+        isAllocated = false;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 
     public void setName(String name) {
-        Name = name;
+        this.name = name;
     }
 
-    public String getID() {
-        return ID;
+    public String getStudentId() {
+        return studentId;
     }
 
-    public void setID(String ID) {
-        this.ID = ID;
+    public void setStudentId(String studentId) {
+        this.studentId = studentId;
     }
 
     public String getEmail() {
@@ -40,27 +42,35 @@ public class Student {
         this.email = email;
     }
 
-    public int getGeneralrank() {
-        return generalrank;
+    public Long getGeneralRank() {
+        return generalRank;
     }
 
-    public void setGeneralrank(int generalrank) {
-        this.generalrank = generalrank;
+    public void setGeneralRank(Long generalRank) {
+        this.generalRank = generalRank;
     }
 
-    public int getMarks() {
+    public Long getMarks() {
         return marks;
     }
 
-    public void setMarks(int marks) {
+    public void setMarks(Long marks) {
         this.marks = marks;
     }
 
-    public List<String> getCollegepreferences() {
-        return collegepreferences;
+    public List<String> getCollegePreferences() {
+        return collegePreferences;
     }
 
-    public void setCollegepreferences(List<String> collegepreferences) {
-        this.collegepreferences = collegepreferences;
+    public void setCollegepreferences(List<String> collegePreferences) {
+        this.collegePreferences = collegePreferences;
+    }
+
+    public boolean isAllocated() {
+        return isAllocated;
+    }
+
+    public void setAllocated(boolean isAllocated) {
+        this.isAllocated = isAllocated;
     }
 }
