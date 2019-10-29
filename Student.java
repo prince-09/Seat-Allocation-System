@@ -73,4 +73,10 @@ public class Student {
     public void setAllocated(boolean isAllocated) {
         this.isAllocated = isAllocated;
     }
+    public void setisallocated(boolean isallocated){
+        this.isallocated=isallocated;
+    }
+    public boolean getisallocated(){
+        return isallocated;
+    }
 }
