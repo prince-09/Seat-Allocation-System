@@ -46,7 +46,7 @@ public class Runner {
 
     }
 
-   allocate(ArrayList<Program> programs, ArrayList<Student> students) {
+   void allocate(ArrayList<Program> programs, ArrayList<Student> students) {
         
 
         // TODO modify collegeResults & individualResults here
