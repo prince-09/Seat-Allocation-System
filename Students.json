@@ -1,29 +1,901 @@
 {
     "Students": [
         {
-            "studentId": "S1234",
+            "studentId": "S20005",
             "name": "Student 1",
             "email": "stud1@abc.com",
             "generalRank": 20000,
             "marks": 200,
             "collegePreferences": [
-                "P101",
-                "P102",
-                "P103"
+                "C1",
+                "C2",
+                "C3",
+                "C4",
+                "C5"
             ]
         },
         {
-            "studentId": "S12345",
+            "studentId": "S20006",
             "name": "Student 2",
             "email": "stud2@abc.com",
             "generalRank": 22000,
             "marks": 190,
             "collegePreferences": [
-                "P103",
-                "P101",
-                "P102"
+                "C4",
+                "C5",
+                "C2",
+                "C1",
+                "C3"
             ]
-        }
+        },
+         {
+            "studentId": "S20007",
+            "name": "Student 3",
+            "email": "stud3@abc.com",
+            "generalRank": 26080,
+            "marks": 160,
+            "collegePreferences": [
+                "C3",
+                "C5",
+                "C2",
+                "C4",
+                "C1"
+            ]
+        },
+         {
+            "studentId": "S20008",
+            "name": "Student 4",
+            "email": "stud4@abc.com",
+            "generalRank": 19000,
+            "marks": 220,
+            "collegePreferences": [
+                "C4",
+                "C1",
+                "C5",
+                "C2",
+                "C3"
+            ]
+        },
+                 {
+            "studentId": "S20009",
+            "name": "Student 5",
+            "email": "stud5@abc.com",
+            "generalRank": 23000,
+            "marks": 172,
+            "collegePreferences": [
+                "C5",
+                "C4",
+                "C1",
+                "C2",
+                "C3"
+            ]
+        },
+            {
+            "studentId": "S20010",
+            "name": "Student 6",
+            "email": "stud6@abc.com",
+            "generalRank": 23780,
+            "marks": 189,
+            "collegePreferences": [
+                "C5",
+                "C4",
+                "C2",
+                "C1",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20011",
+            "name": "Student 7",
+            "email": "stud7@abc.com",
+            "generalRank": 15880,
+            "marks": 240,
+            "collegePreferences": [
+                "C5",
+                "C4",
+                "C3",
+                "C1",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20012",
+            "name": "Student 8",
+            "email": "stud8@abc.com",
+            "generalRank": 12880,
+            "marks": 272,
+            "collegePreferences": [
+                "C1",
+                "C2",
+                "C5",
+                "C4",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20013",
+            "name": "Student 9",
+            "email": "stud9@abc.com",
+            "generalRank": 14680,
+            "marks": 245,
+            "collegePreferences": [
+                "C5",
+                "C4",
+                "C2",
+                "C3",
+                "C1"
+            ]
+        },
+         {
+            "studentId": "S20014",
+            "name": "Student 10",
+            "email": "stud10@abc.com",
+            "generalRank": 10680,
+            "marks": 295,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C2",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20015",
+            "name": "Student 11",
+            "email": "stud11@abc.com",
+            "generalRank": 33680,
+            "marks": 123,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C4",
+                "C3",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20016",
+            "name": "Student 12",
+            "email": "stud12@abc.com",
+            "generalRank": 22480,
+            "marks": 199,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C3",
+                "C2",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20017",
+            "name": "Student 13",
+            "email": "stud13@abc.com",
+            "generalRank": 30680,
+            "marks": 144,
+            "collegePreferences": [
+                "C4",
+                "C5",
+                "C2",
+                "C3",
+                "C1"
+            ]
+        },
+        {
+            "studentId": "S20018",
+            "name": "Student 14",
+            "email": "stud14@abc.com",
+            "generalRank": 27680,
+            "marks": 165,
+            "collegePreferences": [
+                "C5",
+                "C2",
+                "C1",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20019",
+            "name": "Student 15",
+            "email": "stud15@abc.com",
+            "generalRank": 28680,
+            "marks": 175,
+            "collegePreferences": [
+                "C5",
+                "C2",
+                "C1",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20020",
+            "name": "Student 16",
+            "email": "stud16@abc.com",
+            "generalRank": 17680,
+            "marks": 265,
+            "collegePreferences": [
+                "C5",
+                "C2",
+                "C1",
+                "C4",
+                "C3"
+            ]
+        },
+         {
+            "studentId": "S20021",
+            "name": "Student 17",
+            "email": "stud17@abc.com",
+            "generalRank": 30000,
+            "marks": 140,
+            "collegePreferences": [
+                "C1",
+                "C3",
+                "C2",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "studentId": "S20022",
+            "name": "Student 18",
+            "email": "stud18@abc.com",
+            "generalRank": 22090,
+            "marks": 190,
+            "collegePreferences": [
+                "C4",
+                "C5",
+                "C2",
+                "C1",
+                "C3"
+            ]
+        },
+         {
+            "studentId": "S20023",
+            "name": "Student 19",
+            "email": "stud19@abc.com",
+            "generalRank": 25880,
+            "marks": 162,
+            "collegePreferences": [
+                "C3",
+                "C2",
+                "C5",
+                "C4",
+                "C1"
+            ]
+        },
+         {
+            "studentId": "S20024",
+            "name": "Student 20",
+            "email": "stud20@abc.com",
+            "generalRank": 18700,
+            "marks": 222,
+            "collegePreferences": [
+                "C1",
+                "C4",
+                "C5",
+                "C2",
+                "C3"
+            ]
+        },
+                 {
+            "studentId": "S20025",
+            "name": "Student 21",
+            "email": "stud21@abc.com",
+            "generalRank": 23090,
+            "marks": 170,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C4",
+                "C2",
+                "C3"
+            ]
+        },
+            {
+            "studentId": "S20026",
+            "name": "Student 22",
+            "email": "stud22@abc.com",
+            "generalRank": 23990,
+            "marks": 187,
+            "collegePreferences": [
+                "C4",
+                "C5",
+                "C2",
+                "C1",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20027",
+            "name": "Student 23",
+            "email": "stud23@abc.com",
+            "generalRank": 16280,
+            "marks": 242,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C3",
+                "C4",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20028",
+            "name": "Student 24",
+            "email": "stud24@abc.com",
+            "generalRank": 14380,
+            "marks": 262,
+            "collegePreferences": [
+                "C1",
+                "C5",
+                "C2",
+                "C4",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20029",
+            "name": "Student 25",
+            "email": "stud25@abc.com",
+            "generalRank": 14080,
+            "marks": 255,
+            "collegePreferences": [
+                "C3",
+                "C4",
+                "C2",
+                "C1",
+                "C5"
+            ]
+        },
+         {
+            "studentId": "S20030",
+            "name": "Student 26",
+            "email": "stud26@abc.com",
+            "generalRank": 13680,
+            "marks": 281,
+            "collegePreferences": [
+                "C5",
+                "C2",
+                "C1",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20031",
+            "name": "Student 27",
+            "email": "stud27@abc.com",
+            "generalRank": 34680,
+            "marks": 120,
+            "collegePreferences": [
+                "C2",
+                "C1",
+                "C4",
+                "C3",
+                "C5"
+            ]
+        },
+        {
+            "studentId": "S20032",
+            "name": "Student 28",
+            "email": "stud28@abc.com",
+            "generalRank": 21480,
+            "marks": 205,
+            "collegePreferences": [
+                "C5",
+                "C3",
+                "C1",
+                "C2",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20033",
+            "name": "Student 29",
+            "email": "stud29@abc.com",
+            "generalRank": 23380,
+            "marks": 174,
+            "collegePreferences": [
+                "C4",
+                "C2",
+                "C5",
+                "C3",
+                "C1"
+            ]
+        },
+        {
+            "studentId": "S20034",
+            "name": "Student 30",
+            "email": "stud30@abc.com",
+            "generalRank": 26870,
+            "marks": 169,
+            "collegePreferences": [
+                "C1",
+                "C2",
+                "C5",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20035",
+            "name": "Student 31",
+            "email": "stud31@abc.com",
+            "generalRank": 29860,
+            "marks": 173,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C3",
+                "C2",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20036",
+            "name": "Student 32",
+            "email": "stud32@abc.com",
+            "generalRank": 17280,
+            "marks": 266,
+            "collegePreferences": [
+                "C5",
+                "C2",
+                "C4",
+                "C3",
+                "C1"
+            ]
+        },
+          {
+            "studentId": "S20037",
+            "name": "Student 33",
+            "email": "stud33@abc.com",
+            "generalRank": 19901,
+            "marks": 205,
+            "collegePreferences": [
+                "C1",
+                "C5",
+                "C3",
+                "C4",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20038",
+            "name": "Student 34",
+            "email": "stud34@abc.com",
+            "generalRank": 22405,
+            "marks": 188,
+            "collegePreferences": [
+                "C4",
+                "C3",
+                "C2",
+                "C1",
+                "C5"
+            ]
+        },
+         {
+            "studentId": "S20039",
+            "name": "Student 35",
+            "email": "stud35@abc.com",
+            "generalRank": 16080,
+            "marks": 264,
+            "collegePreferences": [
+                "C3",
+                "C1",
+                "C2",
+                "C4",
+                "C5"
+            ]
+        },
+         {
+            "studentId": "S20040",
+            "name": "Student 36",
+            "email": "stud36@abc.com",
+            "generalRank": 6000,
+            "marks": 320,
+            "collegePreferences": [
+                "C1",
+                "C4",
+                "C3",
+                "C5",
+                "C2"
+            ]
+        },
+                 {
+            "studentId": "S20041",
+            "name": "Student 37",
+            "email": "stud37@abc.com",
+            "generalRank": 21080,
+            "marks": 182,
+            "collegePreferences": [
+                "C4",
+                "C2",
+                "C5",
+                "C1",
+                "C3"
+            ]
+        },
+            {
+            "studentId": "S20042",
+            "name": "Student 38",
+            "email": "stud38@abc.com",
+            "generalRank": 23798,
+            "marks": 189,
+            "collegePreferences": [
+                "C5",
+                "C4",
+                "C3",
+                "C1",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20043",
+            "name": "Student 39",
+            "email": "stud39@abc.com",
+            "generalRank": 15680,
+            "marks": 241,
+            "collegePreferences": [
+                "C5",
+                "C3",
+                "C4",
+                "C1",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20044",
+            "name": "Student 40",
+            "email": "stud40@abc.com",
+            "generalRank": 13380,
+            "marks": 262,
+            "collegePreferences": [
+                "C1",
+                "C2",
+                "C4",
+                "C5",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20045",
+            "name": "Student 41",
+            "email": "stud41@abc.com",
+            "generalRank": 16680,
+            "marks": 235,
+            "collegePreferences": [
+                "C5",
+                "C3",
+                "C2",
+                "C4",
+                "C1"
+            ]
+        },
+         {
+            "studentId": "S20046",
+            "name": "Student 42",
+            "email": "stud42@abc.com",
+            "generalRank": 10580,
+            "marks": 297,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C2",
+                "C4",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20047",
+            "name": "Student 43",
+            "email": "stud43@abc.com",
+            "generalRank": 33620,
+            "marks": 125,
+            "collegePreferences": [
+                "C1",
+                "C5",
+                "C4",
+                "C3",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20048",
+            "name": "Student 44",
+            "email": "stud44@abc.com",
+            "generalRank": 20480,
+            "marks": 209,
+            "collegePreferences": [
+                "C5",
+                "C2",
+                "C3",
+                "C1",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20049",
+            "name": "Student 45",
+            "email": "stud45@abc.com",
+            "generalRank": 30000,
+            "marks": 150,
+            "collegePreferences": [
+                "C4",
+                "C5",
+                "C1",
+                "C3",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20050",
+            "name": "Student 46",
+            "email": "stud46@abc.com",
+            "generalRank": 27689,
+            "marks": 165,
+            "collegePreferences": [
+                "C2",
+                "C5",
+                "C1",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20051",
+            "name": "Student 47",
+            "email": "stud47@abc.com",
+            "generalRank": 28780,
+            "marks": 166,
+            "collegePreferences": [
+                "C2",
+                "C5",
+                "C1",
+                "C4",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20052",
+            "name": "Student 48",
+            "email": "stud48@abc.com",
+            "generalRank": 17989,
+            "marks": 264,
+            "collegePreferences": [
+                "C2",
+                "C5",
+                "C1",
+                "C3",
+                "C4"
+            ]
+        },
+          {
+            "studentId": "S20053",
+            "name": "Student 49",
+            "email": "stud49@abc.com",
+            "generalRank": 28000,
+            "marks": 212,
+            "collegePreferences": [
+                "C3",
+                "C2",
+                "C1",
+                "C4",
+                "C5"
+            ]
+        },
+        {
+            "studentId": "S20054",
+            "name": "Student 50",
+            "email": "stud50@abc.com",
+            "generalRank": 22500,
+            "marks": 188,
+            "collegePreferences": [
+                "C3",
+                "C5",
+                "C2",
+                "C1",
+                "C4"
+            ]
+        },
+         {
+            "studentId": "S20055",
+            "name": "Student 51",
+            "email": "stud51@abc.com",
+            "generalRank": 26088,
+            "marks": 160,
+            "collegePreferences": [
+                "C3",
+                "C2",
+                "C5",
+                "C4",
+                "C1"
+            ]
+        },
+         {
+            "studentId": "S20056",
+            "name": "Student 52",
+            "email": "stud52@abc.com",
+            "generalRank": 19090,
+            "marks": 221,
+            "collegePreferences": [
+                "C4",
+                "C5",
+                "C1",
+                "C2",
+                "C3"
+            ]
+        },
+                 {
+            "studentId": "S20057",
+            "name": "Student 53",
+            "email": "stud53@abc.com",
+            "generalRank": 23180,
+            "marks": 168,
+            "collegePreferences": [
+                "C5",
+                "C4",
+                "C2",
+                "C1",
+                "C3"
+            ]
+        },
+            {
+            "studentId": "S20058",
+            "name": "Student 54",
+            "email": "stud54@abc.com",
+            "generalRank": 28780,
+            "marks": 163,
+            "collegePreferences": [
+                "C2",
+                "C4",
+                "C5",
+                "C1",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20059",
+            "name": "Student 55",
+            "email": "stud55@abc.com",
+            "generalRank": 15280,
+            "marks": 243,
+            "collegePreferences": [
+                "C3",
+                "C5",
+                "C4",
+                "C1",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20060",
+            "name": "Student 56",
+            "email": "stud56@abc.com",
+            "generalRank": 12000,
+            "marks": 250,
+            "collegePreferences": [
+                "C2",
+                "C1",
+                "C5",
+                "C4",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20061",
+            "name": "Student 57",
+            "email": "stud57@abc.com",
+            "generalRank": 14689,
+            "marks": 245,
+            "collegePreferences": [
+                "C1",
+                "C3",
+                "C4",
+                "C2",
+                "C5"
+            ]
+        },
+         {
+            "studentId": "S20062",
+            "name": "Student 58",
+            "email": "stud58@abc.com",
+            "generalRank": 13450,
+            "marks": 299,
+            "collegePreferences": [
+                "C1",
+                "C5",
+                "C2",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20063",
+            "name": "Student 59",
+            "email": "stud59@abc.com",
+            "generalRank": 35680,
+            "marks": 106,
+            "collegePreferences": [
+                "C1",
+                "C4",
+                "C5",
+                "C3",
+                "C2"
+            ]
+        },
+        {
+            "studentId": "S20064",
+            "name": "Student 60",
+            "email": "stud60@abc.com",
+            "generalRank": 24489,
+            "marks": 187,
+            "collegePreferences": [
+                "C1",
+                "C3",
+                "C5",
+                "C2",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20065",
+            "name": "Student 61",
+            "email": "stud61@abc.com",
+            "generalRank": 35630,
+            "marks": 114,
+            "collegePreferences": [
+                "C1",
+                "C2",
+                "C5",
+                "C4",
+                "C3"
+            ]
+        },
+        {
+            "studentId": "S20066",
+            "name": "Student 62",
+            "email": "stud62@abc.com",
+            "generalRank": 27080,
+            "marks": 168,
+            "collegePreferences": [
+                "C2",
+                "C1",
+                "C5",
+                "C3",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20067",
+            "name": "Student 63",
+            "email": "stud15@abc.com",
+            "generalRank": 23330,
+            "marks": 196,
+            "collegePreferences": [
+                "C3",
+                "C1",
+                "C2",
+                "C5",
+                "C4"
+            ]
+        },
+        {
+            "studentId": "S20068",
+            "name": "Student 64",
+            "email": "stud64@abc.com",
+            "generalRank": 17681,
+            "marks": 265,
+            "collegePreferences": [
+                "C5",
+                "C1",
+                "C2",
+                "C3",
+                "C4"
+            ]
+        },
     ]
 
 }
