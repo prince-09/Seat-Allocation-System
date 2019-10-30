@@ -84,11 +84,15 @@ public class Runner {
                             }
                             students2.get(i).isAllocated=true;
                             individualResults.put(""+programs.get(j).getProgramID(), students2.get(i).getName());
-                            if(collegeResults.containsKey(""+programs.get(j).getCollegeName())){
-                                collegeResults.put(""+programs.get(j).getCollegeName(),collegeResults.get(""+programs.get(j).getCollegeName()).add(students.get(i)));
+                             if(collegeResults.containsKey(""+programs.get(j).getCollegeName())){
+                                ArrayList<Student> list=new ArrayList<>(collegeResults.get(""+programs.get(j).getCollegeName()));
+                                list.add(students2.get(i));
+                                collegeResults.put(""+programs.get(j).getCollegeName(),list);
                             }
                             else{
-                                collegeResults.put(""+programs.get(j).getCollegeName(),(new ArrayList<Student>()).add(students2.get(i)));
+                                ArrayList<Student> list=new ArrayList<>();
+                                list.add(students2.get(i));
+                                collegeResults.put(""+programs.get(j).getCollegeName(),list);
                             }
                             a[j]++;
                         }
