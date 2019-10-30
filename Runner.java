@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Scanner;
 
 public class Runner {
 
@@ -105,6 +106,12 @@ public class Runner {
     }
 
     void publishResults(){
+        System.out.println(collegeResults.entrySet().toArray().toString());
+        System.out.println();
+        System.out.println(individualResults.entrySet().toArray()[0]);
+        System.out.println(individualResults.values().toArray().toString());
+
+        new Scanner(System.in).nextLine();
 
         // TODO save collegeResults & individualResults to file 
 
