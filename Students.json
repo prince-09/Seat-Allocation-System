@@ -7,11 +7,11 @@
             "generalRank": 20000,
             "marks": 200,
             "collegePreferences": [
-                "C1",
-                "C2",
-                "C3",
-                "C4",
-                "C5"
+                "P101",
+                "P202",
+                "P303",
+                "P401",
+                "P502"
             ]
         },
         {
@@ -21,11 +21,11 @@
             "generalRank": 22000,
             "marks": 190,
             "collegePreferences": [
-                "C4",
-                "C5",
-                "C2",
-                "C1",
-                "C3"
+                "P103",
+                "P203",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
          {
@@ -35,11 +35,11 @@
             "generalRank": 26080,
             "marks": 160,
             "collegePreferences": [
-                "C3",
-                "C5",
-                "C2",
-                "C4",
-                "C1"
+                "P101",
+                "P201",
+                "P301",
+                "P401",
+                "P501"
             ]
         },
          {
@@ -49,11 +49,11 @@
             "generalRank": 19000,
             "marks": 220,
             "collegePreferences": [
-                "C4",
-                "C1",
-                "C5",
-                "C2",
-                "C3"
+                "P102",
+                "P202",
+                "P302",
+                "P402",
+                "P502"
             ]
         },
                  {
@@ -63,11 +63,11 @@
             "generalRank": 23000,
             "marks": 172,
             "collegePreferences": [
-                "C5",
-                "C4",
-                "C1",
-                "C2",
-                "C3"
+                "P101",
+                "P203",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
             {
@@ -77,11 +77,11 @@
             "generalRank": 23780,
             "marks": 189,
             "collegePreferences": [
-                "C5",
-                "C4",
-                "C2",
-                "C1",
-                "C3"
+                "P103",
+                "P201",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
         {
@@ -91,11 +91,11 @@
             "generalRank": 15880,
             "marks": 240,
             "collegePreferences": [
-                "C5",
-                "C4",
-                "C3",
-                "C1",
-                "C2"
+                "P103",
+                "P203",
+                "P301",
+                "P403",
+                "P503"
             ]
         },
         {
@@ -105,11 +105,11 @@
             "generalRank": 12880,
             "marks": 272,
             "collegePreferences": [
-                "C1",
-                "C2",
-                "C5",
-                "C4",
-                "C3"
+                "P103",
+                "P203",
+                "P303",
+                "P401",
+                "P503"
             ]
         },
         {
@@ -119,11 +119,11 @@
             "generalRank": 14680,
             "marks": 245,
             "collegePreferences": [
-                "C5",
-                "C4",
-                "C2",
-                "C3",
-                "C1"
+                "P103",
+                "P203",
+                "P303",
+                "P403",
+                "P501"
             ]
         },
          {
@@ -133,11 +133,11 @@
             "generalRank": 10680,
             "marks": 295,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C2",
-                "C3",
-                "C4"
+                "P102",
+                "P203",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
         {
@@ -147,11 +147,11 @@
             "generalRank": 33680,
             "marks": 123,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C4",
-                "C3",
-                "C2"
+                "P103",
+                "P202",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
         {
@@ -161,11 +161,11 @@
             "generalRank": 22480,
             "marks": 199,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C3",
-                "C2",
-                "C4"
+                "P103",
+                "P203",
+                "P302",
+                "P403",
+                "P503"
             ]
         },
         {
@@ -175,11 +175,11 @@
             "generalRank": 30680,
             "marks": 144,
             "collegePreferences": [
-                "C4",
-                "C5",
-                "C2",
-                "C3",
-                "C1"
+                "P103",
+                "P203",
+                "P303",
+                "P402",
+                "P503"
             ]
         },
         {
@@ -189,11 +189,11 @@
             "generalRank": 27680,
             "marks": 165,
             "collegePreferences": [
-                "C5",
-                "C2",
-                "C1",
-                "C3",
-                "C4"
+                "P103",
+                "P203",
+                "P303",
+                "P403",
+                "P502"
             ]
         },
         {
@@ -203,11 +203,11 @@
             "generalRank": 28680,
             "marks": 175,
             "collegePreferences": [
-                "C5",
-                "C2",
-                "C1",
-                "C3",
-                "C4"
+                "P101",
+                "P201",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
         {
@@ -217,11 +217,11 @@
             "generalRank": 17680,
             "marks": 265,
             "collegePreferences": [
-                "C5",
-                "C2",
-                "C1",
-                "C4",
-                "C3"
+                "P103",
+                "P201",
+                "P301",
+                "P403",
+                "P503"
             ]
         },
          {
@@ -231,11 +231,11 @@
             "generalRank": 30000,
             "marks": 140,
             "collegePreferences": [
-                "C1",
-                "C3",
-                "C2",
-                "C4",
-                "C5"
+                "P103",
+                "P203",
+                "P301",
+                "P401",
+                "P503"
             ]
         },
         {
@@ -245,11 +245,11 @@
             "generalRank": 22090,
             "marks": 190,
             "collegePreferences": [
-                "C4",
-                "C5",
-                "C2",
-                "C1",
-                "C3"
+                "P103",
+                "P203",
+                "P303",
+                "P401",
+                "P501"
             ]
         },
          {
@@ -259,11 +259,11 @@
             "generalRank": 25880,
             "marks": 162,
             "collegePreferences": [
-                "C3",
-                "C2",
-                "C5",
-                "C4",
-                "C1"
+                "P102",
+                "P202",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
          {
@@ -273,11 +273,11 @@
             "generalRank": 18700,
             "marks": 222,
             "collegePreferences": [
-                "C1",
-                "C4",
-                "C5",
-                "C2",
-                "C3"
+                "P103",
+                "P202",
+                "P302",
+                "P403",
+                "P503"
             ]
         },
                  {
@@ -287,11 +287,11 @@
             "generalRank": 23090,
             "marks": 170,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C4",
-                "C2",
-                "C3"
+                "P103",
+                "P203",
+                "P302",
+                "P402",
+                "P503"
             ]
         },
             {
@@ -301,11 +301,11 @@
             "generalRank": 23990,
             "marks": 187,
             "collegePreferences": [
-                "C4",
-                "C5",
-                "C2",
-                "C1",
-                "C3"
+                "P103",
+                "P203",
+                "P303",
+                "P402",
+                "P502"
             ]
         },
         {
@@ -315,11 +315,11 @@
             "generalRank": 16280,
             "marks": 242,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C3",
-                "C4",
-                "C2"
+                "P103",
+                "P203",
+                "P303",
+                "P402",
+                "P502"
             ]
         },
         {
@@ -329,11 +329,11 @@
             "generalRank": 14380,
             "marks": 262,
             "collegePreferences": [
-                "C1",
-                "C5",
-                "C2",
-                "C4",
-                "C3"
+                "P101",
+                "P202",
+                "P303",
+                "P403",
+                "P503"
             ]
         },
         {
@@ -343,11 +343,11 @@
             "generalRank": 14080,
             "marks": 255,
             "collegePreferences": [
-                "C3",
-                "C4",
-                "C2",
-                "C1",
-                "C5"
+                "P103",
+                "P201",
+                "P302",
+                "P403",
+                "P503"
             ]
         },
          {
@@ -357,11 +357,11 @@
             "generalRank": 13680,
             "marks": 281,
             "collegePreferences": [
-                "C5",
-                "C2",
-                "C1",
-                "C3",
-                "C4"
+                "P103",
+                "P203",
+                "P301",
+                "P402",
+                "P503"
             ]
         },
         {
@@ -371,11 +371,11 @@
             "generalRank": 34680,
             "marks": 120,
             "collegePreferences": [
-                "C2",
-                "C1",
-                "C4",
-                "C3",
-                "C5"
+                "P103",
+                "P203",
+                "P303",
+                "P401",
+                "P502"
             ]
         },
         {
@@ -385,11 +385,11 @@
             "generalRank": 21480,
             "marks": 205,
             "collegePreferences": [
-                "C5",
-                "C3",
-                "C1",
-                "C2",
-                "C4"
+                "P102",
+                "P201",
+                "P302",
+                "P403",
+                "P501"
             ]
         },
         {
@@ -399,11 +399,11 @@
             "generalRank": 23380,
             "marks": 174,
             "collegePreferences": [
-                "C4",
-                "C2",
-                "C5",
-                "C3",
-                "C1"
+                "P101",
+                "P202",
+                "P301",
+                "P402",
+                "P503"
             ]
         },
         {
@@ -413,11 +413,11 @@
             "generalRank": 26870,
             "marks": 169,
             "collegePreferences": [
-                "C1",
-                "C2",
-                "C5",
-                "C3",
-                "C4"
+                "P103",
+                "P201",
+                "P302",
+                "P401",
+                "P502"
             ]
         },
         {
@@ -427,11 +427,11 @@
             "generalRank": 29860,
             "marks": 173,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C3",
-                "C2",
-                "C4"
+                "P102",
+                "P203",
+                "P301",
+                "P402",
+                "P501"
             ]
         },
         {
@@ -441,11 +441,11 @@
             "generalRank": 17280,
             "marks": 266,
             "collegePreferences": [
-                "C5",
-                "C2",
-                "C4",
-                "C3",
-                "C1"
+                "P101",
+                "P201",
+                "P301",
+                "P102",
+                "P202"
             ]
         },
           {
@@ -455,11 +455,11 @@
             "generalRank": 19901,
             "marks": 205,
             "collegePreferences": [
-                "C1",
-                "C5",
-                "C3",
-                "C4",
-                "C2"
+                "P102",
+                "P201",
+                "P301",
+                "P103",
+                "P202"
             ]
         },
         {
@@ -469,11 +469,11 @@
             "generalRank": 22405,
             "marks": 188,
             "collegePreferences": [
-                "C4",
-                "C3",
-                "C2",
-                "C1",
-                "C5"
+                "P103",
+                "P201",
+                "P301",
+                "P101",
+                "P202"
             ]
         },
          {
@@ -483,11 +483,11 @@
             "generalRank": 16080,
             "marks": 264,
             "collegePreferences": [
-                "C3",
-                "C1",
-                "C2",
-                "C4",
-                "C5"
+                "P101",
+                "P202",
+                "P301",
+                "P102",
+                "P203"
             ]
         },
          {
@@ -497,11 +497,11 @@
             "generalRank": 6000,
             "marks": 320,
             "collegePreferences": [
-                "C1",
-                "C4",
-                "C3",
-                "C5",
-                "C2"
+                "P101",
+                "P203",
+                "P301",
+                "P102",
+                "P201"
             ]
         },
                  {
@@ -511,11 +511,11 @@
             "generalRank": 21080,
             "marks": 182,
             "collegePreferences": [
-                "C4",
-                "C2",
-                "C5",
-                "C1",
-                "C3"
+                "P101",
+                "P201",
+                "P302",
+                "P102",
+                "P202"
             ]
         },
             {
@@ -525,11 +525,11 @@
             "generalRank": 23798,
             "marks": 189,
             "collegePreferences": [
-                "C5",
-                "C4",
-                "C3",
-                "C1",
-                "C2"
+                "P101",
+                "P201",
+                "P303",
+                "P102",
+                "P202"
             ]
         },
         {
@@ -539,11 +539,11 @@
             "generalRank": 15680,
             "marks": 241,
             "collegePreferences": [
-                "C5",
-                "C3",
-                "C4",
-                "C1",
-                "C2"
+                "P301",
+                "P401",
+                "P501",
+                "P302",
+                "P402"
             ]
         },
         {
@@ -553,11 +553,11 @@
             "generalRank": 13380,
             "marks": 262,
             "collegePreferences": [
-                "C1",
-                "C2",
-                "C4",
-                "C5",
-                "C3"
+                "P301",
+                "P401",
+                "P502",
+                "P302",
+                "P402"
             ]
         },
         {
@@ -567,11 +567,11 @@
             "generalRank": 16680,
             "marks": 235,
             "collegePreferences": [
-                "C5",
-                "C3",
-                "C2",
-                "C4",
-                "C1"
+                "P301",
+                "P401",
+                "P503",
+                "P302",
+                "P402"
             ]
         },
          {
@@ -581,11 +581,11 @@
             "generalRank": 10580,
             "marks": 297,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C2",
-                "C4",
-                "C3"
+                "P302",
+                "P401",
+                "P501",
+                "P303",
+                "P402"
             ]
         },
         {
@@ -595,11 +595,11 @@
             "generalRank": 33620,
             "marks": 125,
             "collegePreferences": [
-                "C1",
-                "C5",
-                "C4",
-                "C3",
-                "C2"
+                "P301",
+                "P402",
+                "P501",
+                "P302",
+                "P403"
             ]
         },
         {
@@ -609,11 +609,11 @@
             "generalRank": 20480,
             "marks": 209,
             "collegePreferences": [
-                "C5",
-                "C2",
-                "C3",
-                "C1",
-                "C4"
+                "P303",
+                "P401",
+                "P501",
+                "P301",
+                "P402"
             ]
         },
         {
@@ -637,11 +637,11 @@
             "generalRank": 27689,
             "marks": 165,
             "collegePreferences": [
-                "C2",
-                "C5",
-                "C1",
-                "C3",
-                "C4"
+                "P301",
+                "P403",
+                "P501",
+                "P302",
+                "P401"
             ]
         },
         {
@@ -651,11 +651,11 @@
             "generalRank": 28780,
             "marks": 166,
             "collegePreferences": [
-                "C2",
-                "C5",
-                "C1",
-                "C4",
-                "C3"
+                "P101",
+                "P301",
+                "P501",
+                "P102",
+                "P302"
             ]
         },
         {
@@ -665,11 +665,11 @@
             "generalRank": 17989,
             "marks": 264,
             "collegePreferences": [
-                "C2",
-                "C5",
-                "C1",
-                "C3",
-                "C4"
+                "P102",
+                "P301",
+                "P501",
+                "P103",
+                "P302"
             ]
         },
           {
@@ -679,11 +679,11 @@
             "generalRank": 28000,
             "marks": 212,
             "collegePreferences": [
-                "C3",
-                "C2",
-                "C1",
-                "C4",
-                "C5"
+                "P103",
+                "P301",
+                "P501",
+                "P101",
+                "P302"
             ]
         },
         {
@@ -693,11 +693,11 @@
             "generalRank": 22500,
             "marks": 188,
             "collegePreferences": [
-                "C3",
-                "C5",
-                "C2",
-                "C1",
-                "C4"
+                "P101",
+                "P302",
+                "P501",
+                "P102",
+                "P303"
             ]
         },
          {
@@ -707,11 +707,11 @@
             "generalRank": 26088,
             "marks": 160,
             "collegePreferences": [
-                "C3",
-                "C2",
-                "C5",
-                "C4",
-                "C1"
+                "P101",
+                "P303",
+                "P501",
+                "P102",
+                "P301"
             ]
         },
          {
@@ -721,11 +721,11 @@
             "generalRank": 19090,
             "marks": 221,
             "collegePreferences": [
-                "C4",
-                "C5",
-                "C1",
-                "C2",
-                "C3"
+                "P101",
+                "P301",
+                "P502",
+                "P102",
+                "P302"
             ]
         },
                  {
@@ -735,11 +735,11 @@
             "generalRank": 23180,
             "marks": 168,
             "collegePreferences": [
-                "C5",
-                "C4",
-                "C2",
-                "C1",
-                "C3"
+                "P101",
+                "P301",
+                "P503",
+                "P102",
+                "P302"
             ]
         },
             {
@@ -749,11 +749,11 @@
             "generalRank": 28780,
             "marks": 163,
             "collegePreferences": [
-                "C2",
-                "C4",
-                "C5",
-                "C1",
-                "C3"
+                "P101",
+                "P401",
+                "P503",
+                "P102",
+                "P402"
             ]
         },
         {
@@ -763,11 +763,11 @@
             "generalRank": 15280,
             "marks": 243,
             "collegePreferences": [
-                "C3",
-                "C5",
-                "C4",
-                "C1",
-                "C2"
+                "P101",
+                "P301",
+                "P403",
+                "P102",
+                "P302"
             ]
         },
         {
@@ -777,11 +777,11 @@
             "generalRank": 12000,
             "marks": 250,
             "collegePreferences": [
-                "C2",
-                "C1",
-                "C5",
-                "C4",
-                "C3"
+                "P101",
+                "P301",
+                "P503",
+                "P402",
+                "P302"
             ]
         },
         {
@@ -791,11 +791,11 @@
             "generalRank": 14689,
             "marks": 245,
             "collegePreferences": [
-                "C1",
-                "C3",
-                "C4",
-                "C2",
-                "C5"
+                "P201",
+                "P301",
+                "P503",
+                "P402",
+                "P302"
             ]
         },
          {
@@ -805,11 +805,11 @@
             "generalRank": 13450,
             "marks": 299,
             "collegePreferences": [
-                "C1",
-                "C5",
-                "C2",
-                "C3",
-                "C4"
+                "P102",
+                "P101",
+                "P403",
+                "P103",
+                "P302"
             ]
         },
         {
@@ -819,11 +819,11 @@
             "generalRank": 35680,
             "marks": 106,
             "collegePreferences": [
-                "C1",
-                "C4",
-                "C5",
-                "C3",
-                "C2"
+                "P201",
+                "P301",
+                "P103",
+                "P102",
+                "P502"
             ]
         },
         {
@@ -833,11 +833,11 @@
             "generalRank": 24489,
             "marks": 187,
             "collegePreferences": [
-                "C1",
-                "C3",
-                "C5",
-                "C2",
-                "C4"
+                "P201",
+                "P101",
+                "P403",
+                "P102",
+                "P302"
             ]
         },
         {
@@ -847,12 +847,11 @@
             "generalRank": 35630,
             "marks": 114,
             "collegePreferences": [
-                "C1",
-                "C2",
-                "C5",
-                "C4",
-                "C3"
-            ]
+                "P102",
+                "P303",
+                "P503",
+                "P202",
+                "P402"            ]
         },
         {
             "studentId": "S20066",
@@ -861,11 +860,11 @@
             "generalRank": 27080,
             "marks": 168,
             "collegePreferences": [
-                "C2",
-                "C1",
-                "C5",
-                "C3",
-                "C4"
+                "P101",
+                "P302",
+                "P501",
+                "P103",
+                "P301"
             ]
         },
         {
@@ -875,11 +874,11 @@
             "generalRank": 23330,
             "marks": 196,
             "collegePreferences": [
-                "C3",
-                "C1",
-                "C2",
-                "C5",
-                "C4"
+                "P101",
+                "P401",
+                "P403",
+                "P402",
+                "P302"
             ]
         },
         {
@@ -889,11 +888,11 @@
             "generalRank": 17681,
             "marks": 265,
             "collegePreferences": [
-                "C5",
-                "C1",
-                "C2",
-                "C3",
-                "C4"
+                "P101",
+                "P201",
+                "P203",
+                "P202",
+                "P302"
             ]
         },
     ]
