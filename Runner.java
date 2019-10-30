@@ -121,6 +121,15 @@ public class Runner {
             pw.flush();
             pw.close();
 
+            JSONObject detailedList = new JSONObject();
+            for(String key : collegeResults.entrySet().toArray()){
+                JSONArray studentsList = new JSONArray();
+
+                for(Student stud : collegeResults.get(key)){
+                    JSONObject
+                }
+            }
+
             // JSONObject detailedList = new JSONObject();
             // detailedList.put("results", collegeResults);
             // PrintWriter p2w = new PrintWriter("CollegeResults.json");
