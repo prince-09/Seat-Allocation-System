@@ -1,13 +1,12 @@
 {
-    "Programs": [
-        {
+    "Programs": [{
             "programID": "P101",
             "collegeName": "College 1",
             "location": "stud1@abc.com",
             "degree": "B. Tech",
             "branch": "CSE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
+            "seatCapacity": 4,
+            "seatRemaining": 4
         },
         {
             "programID": "P102",
@@ -15,125 +14,125 @@
             "location": "stud2@abc.com",
             "degree": "B. Tech",
             "branch": "Mechanical Engg.",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P103",
             "collegeName": "College 1",
             "location": "stud3@abc.com",
             "degree": "B. Tech",
             "branch": "ECE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P201",
             "collegeName": "College 2",
             "location": "stud4@abc.com",
             "degree": "B. Tech",
             "branch": "CSE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P202",
             "collegeName": "College 2",
             "location": "stud5@abc.com",
             "degree": "B. Tech",
             "branch": "Mechanical Engg.",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P203",
             "collegeName": "College 2",
             "location": "stud6@abc.com",
             "degree": "B. Tech",
             "branch": "ECE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P301",
             "collegeName": "College 3",
             "location": "stud7@abc.com",
             "degree": "B. Tech",
             "branch": "CSE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P302",
             "collegeName": "College 3",
             "location": "stud8@abc.com",
             "degree": "B. Tech",
             "branch": "Mechanical Engg.",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P303",
             "collegeName": "College 3",
             "location": "stud9@abc.com",
             "degree": "B. Tech",
             "branch": "ECE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P401",
             "collegeName": "College 4",
             "location": "stud10@abc.com",
             "degree": "B. Tech",
             "branch": "CSE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P402",
             "collegeName": "College 4",
             "location": "stud11@abc.com",
             "degree": "B. Tech",
             "branch": "Mechanical Engg.",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P403",
             "collegeName": "College 4",
             "location": "stud12@abc.com",
             "degree": "B. Tech",
             "branch": "ECE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P501",
             "collegeName": "College 5",
             "location": "stud13@abc.com",
             "degree": "B. Tech",
             "branch": "CSE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P502",
             "collegeName": "College 5",
             "location": "stud14@abc.com",
             "degree": "B. Tech",
             "branch": "Mechanical Engg.",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
-        }
-         {
+            "seatCapacity": 4,
+            "seatRemaining": 4
+        },
+        {
             "programID": "P503",
             "collegeName": "College 5",
             "location": "stud15@abc.com",
             "degree": "B. Tech",
             "branch": "ECE",
-            "seatCapacity" : 4,
-            "seatRemaining" : 4
+            "seatCapacity": 4,
+            "seatRemaining": 4
         }
     ]
 
