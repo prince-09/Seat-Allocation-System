@@ -105,6 +105,9 @@ public class Runner {
                         a[j]++;
                     }
                 }
+                if(students2.get(i).getisallocated()){
+                    break;
+                }
                 g++;
             }
         }
