@@ -58,7 +58,7 @@ public class Runner {
 
         individualResults = new HashMap<>();
         collegeResults = new HashMap<>();
-        System.out.println(students.size());
+       
         Student student1[] = new Student[students.size()];
         for (int i = 0; i < students.size(); i++) {
             student1[i] = students.get(i);
@@ -93,7 +93,7 @@ public class Runner {
                         if (a[j] >= programs.get(j).getSeatCapacity()) {
                             break;
                         }
-                        System.out.print(i + " ");
+                        
                         students2.get(i).isAllocated = true;
                         individualResults.put(students2.get(i).getName(), "" + programs.get(j).getProgramID());
                         if (collegeResults.containsKey("" + programs.get(j).getCollegeName())) {
@@ -121,8 +121,7 @@ public class Runner {
                 individualResults.put(students2.get(i).getName(), "Not allocated");
             }
         }
-        System.out.println(individualResults);
-
+       
     }
 
     void publishResults() {
