@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Scanner;
 
 import java.io.PrintWriter;
@@ -125,21 +126,33 @@ public class Runner {
             pw.close();
 
             JSONObject detailedList = new JSONObject();
-            for(String key : collegeResults.entrySet().toArray()){
+            Iterator itr = collegeResults.entrySet().iterator();
+            while(itr.hasNext()){
+                String key = (String) itr.next();
+
                 JSONArray studentsList = new JSONArray();
 
                 for(Student stud : collegeResults.get(key)){
-                    JSONObject
+                    JSONObject studJSON = new JSONObject();
+                    studJSON.put("studentId", stud.studentId);
+                    studJSON.put("email", stud.email);
+                    studJSON.put("generalRank", stud.generalRank);
+                    studJSON.put("isAllocated", stud.isAllocated);
+                    studJSON.put("marks", stud.marks);
+                    studJSON.put("name", stud.name);
+                    studentsList.add(studJSON);
                 }
+
+                detailedList.put(key, studentsList);
             }
 
             // JSONObject detailedList = new JSONObject();
             // detailedList.put("results", collegeResults);
-            // PrintWriter p2w = new PrintWriter("CollegeResults.json");
-            // p2w.write(detailedList.toJSONString());
+            PrintWriter p2w = new PrintWriter("CollegeResults.json");
+            p2w.write(detailedList.toJSONString());
 
-            // p2w.flush();
-            // p2w.close();
+            p2w.flush();
+            p2w.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
