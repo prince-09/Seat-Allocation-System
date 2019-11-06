@@ -15,7 +15,7 @@ public class Runner {
     ArrayList<Student> students;
     ArrayList<Program> programs;
 
-    HashMap<String, ArrayList<Student>> collegeResults;
+    HashMap<String, ArrayList<String>> collegeResults;
     HashMap<String, String> individualResults;
 
     public static void main(String args[]) {
@@ -58,6 +58,7 @@ public class Runner {
 
         individualResults = new HashMap<>();
         collegeResults = new HashMap<>();
+        System.out.println(students.size());
         Student student1[] = new Student[students.size()];
         for (int i = 0; i < students.size(); i++) {
             student1[i] = students.get(i);
@@ -85,22 +86,24 @@ public class Runner {
         for (int i = 0; i < students2.size(); i++) {
             int g = 0;
             while (g != students2.get(i).getCollegePreferences().size()) {
+                
                 String choice = students2.get(i).getCollegePreferences().get(g);
                 for (int j = 0; j < programs.size(); j++) {
                     if (choice.equals("" + programs.get(j).getProgramID())) {
                         if (a[j] >= programs.get(j).getSeatCapacity()) {
                             break;
                         }
+                        System.out.print(i+" ");
                         students2.get(i).isAllocated = true;
-                        individualResults.put("" + programs.get(j).getProgramID(), students2.get(i).getName());
+                        individualResults.put(students2.get(i).getName(),"" + programs.get(j).getProgramID());
                         if (collegeResults.containsKey("" + programs.get(j).getCollegeName())) {
-                            ArrayList<Student> list = new ArrayList<>(
+                            ArrayList<String> list = new ArrayList<>(
                                     collegeResults.get("" + programs.get(j).getCollegeName()));
-                            list.add(students2.get(i));
+                            list.add(students2.get(i).getName());
                             collegeResults.put("" + programs.get(j).getCollegeName(), list);
                         } else {
-                            ArrayList<Student> list = new ArrayList<>();
-                            list.add(students2.get(i));
+                            ArrayList<String> list = new ArrayList<>();
+                            list.add(students2.get(i).getName());
                             collegeResults.put("" + programs.get(j).getCollegeName(), list);
                         }
                         a[j]++;
@@ -111,7 +114,14 @@ public class Runner {
                 }
                 g++;
             }
+            
         }
+        for(int i=0;i<students2.size();i++){
+            if(students2.get(i).getisallocated()==false){
+                individualResults.put(students2.get(i).getName(),"Not allocated");
+            }
+        }
+        System.out.println(individualResults);
 
     }
 
@@ -121,15 +131,19 @@ public class Runner {
             individualResultsObject.put("results", individualResults);
             PrintWriter pw = new PrintWriter("IndividualResults.json");
             pw.write(individualResultsObject.toJSONString());
-
             pw.flush();
             pw.close();
 
-            JSONObject detailedList = new JSONObject();
-            Iterator itr = collegeResults.entrySet().iterator();
-            while(itr.hasNext()){
-                String key = (String) itr.next();
+            JSONObject collegeResultsObject = new JSONObject();
+            collegeResultsObject.put("results", collegeResults);
+            PrintWriter pwi = new PrintWriter("CollegeResults.json");
+            pwi.write(collegeResultsObject.toJSONString());
 
+            pwi.flush();
+            pwi.close();
+
+         /*   JSONObject detailedList = new JSONObject();
+            for(String key : collegeResults.entrySet().toArray()){
                 JSONArray studentsList = new JSONArray();
 
                 for(Student stud : collegeResults.get(key)){
@@ -142,9 +156,7 @@ public class Runner {
                     studJSON.put("name", stud.name);
                     studentsList.add(studJSON);
                 }
-
-                detailedList.put(key, studentsList);
-            }
+            }*/
 
             // JSONObject detailedList = new JSONObject();
             // detailedList.put("results", collegeResults);

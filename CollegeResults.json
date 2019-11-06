@@ -1,5 +1,7 @@
-{
-    "results": {
-        "College 1": [Student @4c31f4d0, Student @4c31f4d0, Student @4c31f4d0, Student @42f60326, Student @42f60326, Student @42f60326]
-    }
-}
+{"results":{
+    "College 5":["Student 50","Student 53","Student 51","Student 62","Student 49","Student 15","Student 17","Student 13","Student 27","Student 59"],
+    "College 4":["Student 21","Student 63","Student 29","Student 22","Student 60","Student 19","Student 3","Student 30","Student 14","Student 46","Student 54","Student 31"],
+    "College 3":["Student 42","Student 40","Student 39","Student 41","Student 52","Student 44","Student 37","Student 28","Student 12","Student 5","Student 6","Student 38"],
+    "College 2":["Student 57","Student 7","Student 35","Student 23","Student 32","Student 16","Student 64","Student 20","Student 33","Student 1","Student 2","Student 18"],
+    "College 1":["Student 36","Student 10","Student 56","Student 8","Student 58","Student 26","Student 25","Student 24","Student 9","Student 55","Student 48","Student 4"]
+    }}
