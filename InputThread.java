@@ -35,13 +35,9 @@ public class InputThread extends Thread {
     }
 
     Program parseToProgram(JSONObject JO) {
-        return new Program((String) JO.get("programID"),
-        (String) JO.get("collegeName"),
-        (String) JO.get("location"),
-        (String) JO.get("degree"),
-        (String) JO.get("branch"),
-        (Long) JO.get("seatCapacity"),
-        (Long) JO.get("seatRemaining"));
+        return new Program((String) JO.get("programID"), (String) JO.get("collegeName"), (String) JO.get("location"),
+                (String) JO.get("degree"), (String) JO.get("branch"), (Long) JO.get("seatCapacity"),
+                (Long) JO.get("seatRemaining"));
 
     }
 
@@ -58,7 +54,6 @@ public class InputThread extends Thread {
                 }
 
                 listener.onListReady(outputArray);
-                
 
             } else {
 
@@ -79,10 +74,9 @@ public class InputThread extends Thread {
         }
     }
 
-    public interface OnInputCompleteListener{
+    public interface OnInputCompleteListener {
         public void onListReady(ArrayList list);
     }
-
 
     public void setOnInputCompleteListener(OnInputCompleteListener listener) {
         this.listener = listener;

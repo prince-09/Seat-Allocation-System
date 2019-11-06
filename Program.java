@@ -1,4 +1,4 @@
-public class Program{
+public class Program {
     String programName, programID, collegeName, location, degree, branch;
     Long seatCapacity, seatRemaining;
 
@@ -78,5 +78,4 @@ public class Program{
         this.seatRemaining = seatRemaining;
     }
 
-    
 }

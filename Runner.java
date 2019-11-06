@@ -86,16 +86,16 @@ public class Runner {
         for (int i = 0; i < students2.size(); i++) {
             int g = 0;
             while (g != students2.get(i).getCollegePreferences().size()) {
-                
+
                 String choice = students2.get(i).getCollegePreferences().get(g);
                 for (int j = 0; j < programs.size(); j++) {
                     if (choice.equals("" + programs.get(j).getProgramID())) {
                         if (a[j] >= programs.get(j).getSeatCapacity()) {
                             break;
                         }
-                        System.out.print(i+" ");
+                        System.out.print(i + " ");
                         students2.get(i).isAllocated = true;
-                        individualResults.put(students2.get(i).getName(),"" + programs.get(j).getProgramID());
+                        individualResults.put(students2.get(i).getName(), "" + programs.get(j).getProgramID());
                         if (collegeResults.containsKey("" + programs.get(j).getCollegeName())) {
                             ArrayList<String> list = new ArrayList<>(
                                     collegeResults.get("" + programs.get(j).getCollegeName()));
@@ -109,16 +109,16 @@ public class Runner {
                         a[j]++;
                     }
                 }
-                if(students2.get(i).getisallocated()){
+                if (students2.get(i).getisallocated()) {
                     break;
                 }
                 g++;
             }
-            
+
         }
-        for(int i=0;i<students2.size();i++){
-            if(students2.get(i).getisallocated()==false){
-                individualResults.put(students2.get(i).getName(),"Not allocated");
+        for (int i = 0; i < students2.size(); i++) {
+            if (students2.get(i).getisallocated() == false) {
+                individualResults.put(students2.get(i).getName(), "Not allocated");
             }
         }
         System.out.println(individualResults);
@@ -142,24 +142,6 @@ public class Runner {
             pwi.flush();
             pwi.close();
 
-         /*   JSONObject detailedList = new JSONObject();
-            for(String key : collegeResults.entrySet().toArray()){
-                JSONArray studentsList = new JSONArray();
-
-                for(Student stud : collegeResults.get(key)){
-                    JSONObject studJSON = new JSONObject();
-                    studJSON.put("studentId", stud.studentId);
-                    studJSON.put("email", stud.email);
-                    studJSON.put("generalRank", stud.generalRank);
-                    studJSON.put("isAllocated", stud.isAllocated);
-                    studJSON.put("marks", stud.marks);
-                    studJSON.put("name", stud.name);
-                    studentsList.add(studJSON);
-                }
-            }*/
-
-            // JSONObject detailedList = new JSONObject();
-            // detailedList.put("results", collegeResults);
             PrintWriter p2w = new PrintWriter("CollegeResults.json");
             p2w.write(detailedList.toJSONString());
 

@@ -8,7 +8,8 @@ public class Student {
     List<String> collegePreferences;
     boolean isAllocated;
 
-    public Student(String name, String studentId, String email, Long generalrank, Long marks, List<String> collegepreferences) {
+    public Student(String name, String studentId, String email, Long generalrank, Long marks,
+            List<String> collegepreferences) {
         this.name = name;
         this.studentId = studentId;
         this.email = email;
@@ -73,10 +74,12 @@ public class Student {
     public void setAllocated(boolean isAllocated) {
         this.isAllocated = isAllocated;
     }
-    public void setisallocated(boolean isallocated){
-        this.isAllocated=isallocated;
+
+    public void setisallocated(boolean isallocated) {
+        this.isAllocated = isallocated;
     }
-    public boolean getisallocated(){
+
+    public boolean getisallocated() {
         return isAllocated;
     }
 }
