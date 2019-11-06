@@ -141,11 +141,7 @@ public class Runner {
             pwi.flush();
             pwi.close();
 
-            PrintWriter p2w = new PrintWriter("CollegeResults.json");
-            p2w.write(detailedList.toJSONString());
-
-            p2w.flush();
-            p2w.close();
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
