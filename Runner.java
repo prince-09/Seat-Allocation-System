@@ -195,10 +195,13 @@ public class Runner {
             FileWriter writer = new FileWriter(new File("individualResultsCalculated.html"));
             writer.write(export.toString());
 
+            writer.close();
+            scanner.close();
+
             Scanner scanner2 = new Scanner(new File("CollegeResults.html"));
             String sample2 = scanner2.useDelimiter("\\A").next();
 
-            String[] parts2 = sample.split("SPLIT_HERE");
+            String[] parts2 = sample2.split("SPLIT_HERE");
 
             StringBuilder export2 = new StringBuilder();
             export2.append(parts2[0]);
