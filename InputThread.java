@@ -30,7 +30,7 @@ public class InputThread extends Thread {
         while (itr.hasNext())
             preferences.add((String) itr.next());
 
-        return new Student((String) JO.get("name"), (String) JO.get("id"), (String) JO.get("email"),
+        return new Student((String) JO.get("name"), (String) JO.get("studentId"), (String) JO.get("email"),
                 (Long) JO.get("generalRank"), (Long) JO.get("marks"), preferences);
     }
 
