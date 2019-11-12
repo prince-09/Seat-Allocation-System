@@ -176,9 +176,6 @@ public class Runner {
             StringBuilder export = new StringBuilder();
             export.append(parts[0]);
 
-            // System.out.println(individualResults);
-            System.out.println(parts[0]);
-
             for (int i = 0; i < individualResults.keySet().toArray().length; i++) {
                 ArrayList<String> temp = individualResults.get(individualResults.keySet().toArray()[i]);
                 if (!temp.get(0).equals("Not Allocated"))
@@ -198,8 +195,35 @@ public class Runner {
             FileWriter writer = new FileWriter(new File("individualResultsCalculated.html"));
             writer.write(export.toString());
 
-            writer.close();
-            scanner.close();
+            Scanner scanner2 = new Scanner(new File("CollegeResults.html"));
+            String sample2 = scanner2.useDelimiter("\\A").next();
+
+            String[] parts2 = sample.split("SPLIT_HERE");
+
+            StringBuilder export2 = new StringBuilder();
+            export2.append(parts2[0]);
+
+            for (int i = 0; i < collegeResults.keySet().toArray().length; i++) {
+                ArrayList<ArrayList<String>> tempBunch = collegeResults.get(collegeResults.keySet().toArray()[i]);
+                for (ArrayList<String> temp : tempBunch)
+                    if (i % 2 == 1)
+                        export2.append("<tr> <td>" + collegeResults.keySet().toArray()[i] + "</td><td>" + temp.get(0)
+                                + "</td><td>" + temp.get(2) + "</td><td>" + temp.get(4) + "</td><td>" + temp.get(3)
+                                + "</td><td>" + temp.get(5) + "</td></tr>");
+                    else
+                        export2.append("<tr class = \"gray\"> <td>" + collegeResults.keySet().toArray()[i] + "</td><td>"
+                                + temp.get(0) + "</td><td>" + temp.get(2) + "</td><td>"
+                                + temp.get(4) + "</td><td>" + temp.get(3) + "</td><td>" + temp.get(5) + "</td></tr>");
+
+            }
+
+            export2.append(parts2[1]);
+
+            FileWriter writer2 = new FileWriter(new File("CollegeResultsCalculated.html"));
+            writer2.write(export2.toString());
+
+            writer2.close();
+            scanner2.close();
 
         } catch (Exception e) {
             e.printStackTrace();
