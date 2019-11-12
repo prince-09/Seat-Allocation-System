@@ -2,7 +2,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Scanner;
-
+import java.io.File;
+import java.io.FileWriter;
 import java.io.PrintWriter;
 
 import org.json.simple.JSONArray;
@@ -58,7 +59,7 @@ public class Runner {
 
         individualResults = new HashMap<>();
         collegeResults = new HashMap<>();
-       // System.out.println(students.size());
+        // System.out.println(students.size());
         Student student1[] = new Student[students.size()];
         for (int i = 0; i < students.size(); i++) {
             student1[i] = students.get(i);
@@ -82,8 +83,8 @@ public class Runner {
         for (int i = 0; i < students.size(); i++) {
             students2.add(student1[i]);
         }
-       // for(int i=0;i<students2.size();i++)
-       // System.out.println(students2.get(i).getName());
+        // for(int i=0;i<students2.size();i++)
+        // System.out.println(students2.get(i).getName());
         int a[] = new int[programs.size()];
         for (int i = 0; i < students2.size(); i++) {
             int g = 0;
@@ -95,35 +96,35 @@ public class Runner {
                         if (a[j] >= programs.get(j).getSeatCapacity()) {
                             break;
                         }
-                       // System.out.print(i + " ");
+                        // System.out.print(i + " ");
                         students2.get(i).isAllocated = true;
-                     //   System.out.println(students2.get(i).getStudentId());
-                        ArrayList<String> arr=new ArrayList<>();
+                        // System.out.println(students2.get(i).getStudentId());
+                        ArrayList<String> arr = new ArrayList<>();
                         arr.add(programs.get(j).getProgramID());
                         arr.add(students2.get(i).getStudentId());
                         arr.add(students2.get(i).getEmail());
-                        arr.add(""+students2.get(i).getGeneralRank());
-                        arr.add(""+students2.get(i).getMarks());
+                        arr.add("" + students2.get(i).getGeneralRank());
+                        arr.add("" + students2.get(i).getMarks());
                         individualResults.put(students2.get(i).getName(), arr);
                         if (collegeResults.containsKey("" + programs.get(j).getCollegeName())) {
-                            ArrayList<String> stud=new ArrayList<>();
+                            ArrayList<String> stud = new ArrayList<>();
                             stud.add(students2.get(i).getName());
                             stud.add(students2.get(i).getStudentId());
                             stud.add(students2.get(i).getEmail());
-                            stud.add(""+students2.get(i).getMarks());
-                            stud.add(""+students2.get(i).getGeneralRank());
+                            stud.add("" + students2.get(i).getMarks());
+                            stud.add("" + students2.get(i).getGeneralRank());
                             stud.add(programs.get(j).getProgramID());
                             ArrayList<ArrayList<String>> list = new ArrayList<>(
                                     collegeResults.get("" + programs.get(j).getCollegeName()));
                             list.add(stud);
                             collegeResults.put("" + programs.get(j).getCollegeName(), list);
                         } else {
-                            ArrayList<String> stud=new ArrayList<>();
+                            ArrayList<String> stud = new ArrayList<>();
                             stud.add(students2.get(i).getName());
                             stud.add(students2.get(i).getStudentId());
                             stud.add(students2.get(i).getEmail());
-                            stud.add(""+students2.get(i).getMarks());
-                            stud.add(""+students2.get(i).getGeneralRank());
+                            stud.add("" + students2.get(i).getMarks());
+                            stud.add("" + students2.get(i).getGeneralRank());
                             stud.add(programs.get(j).getProgramID());
                             ArrayList<ArrayList<String>> list = new ArrayList<>();
                             list.add(stud);
@@ -141,12 +142,12 @@ public class Runner {
         }
         for (int i = 0; i < students2.size(); i++) {
             if (students2.get(i).getisallocated() == false) {
-                ArrayList<String> arr=new ArrayList<>();
+                ArrayList<String> arr = new ArrayList<>();
                 arr.add("Not Allocated");
-                individualResults.put(students2.get(i).getName(),arr);
+                individualResults.put(students2.get(i).getName(), arr);
             }
         }
-     //   System.out.println(individualResults);
+        // System.out.println(individualResults);
 
     }
 
@@ -167,7 +168,39 @@ public class Runner {
             pwi.flush();
             pwi.close();
 
-           
+            Scanner scanner = new Scanner(new File("individualResults.html"));
+            String sample = scanner.useDelimiter("\\A").next();
+
+            String[] parts = sample.split("SPLIT_HERE");
+
+            StringBuilder export = new StringBuilder();
+            export.append(parts[0]);
+
+            // System.out.println(individualResults);
+            System.out.println(parts[0]);
+
+            for (int i = 0; i < individualResults.keySet().toArray().length; i++) {
+                ArrayList<String> temp = individualResults.get(individualResults.keySet().toArray()[i]);
+                if (!temp.get(0).equals("Not Allocated"))
+                    if (i % 2 == 1)
+                        export.append("<tr> <td>" + temp.get(1) + "</td><td>" + individualResults.keySet().toArray()[i]
+                                + "</td><td>" + temp.get(2) + "</td><td>" + temp.get(3) + "</td><td>" + temp.get(4)
+                                + "</td><td>" + temp.get(0) + "</td></tr>");
+                    else
+                        export.append("<tr class = \"gray\"> <td>" + temp.get(1) + "</td><td>"
+                                + individualResults.keySet().toArray()[i] + "</td><td>" + temp.get(2) + "</td><td>"
+                                + temp.get(3) + "</td><td>" + temp.get(4) + "</td><td>" + temp.get(0) + "</td></tr>");
+
+            }
+
+            export.append(parts[1]);
+
+            FileWriter writer = new FileWriter(new File("individualResultsCalculated.html"));
+            writer.write(export.toString());
+
+            writer.close();
+            scanner.close();
+
         } catch (Exception e) {
             e.printStackTrace();
         }

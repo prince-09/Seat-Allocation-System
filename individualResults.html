@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            table{
+                border: 2px solid white;
+                text-align: center;
+                padding: 15px;
+                width: 1500px;
+                font-size: 24px;
+                border-collapse: collapse;
+            }
+            th,td{
+                text-align: center;
+                padding: 15px;
+                font-size: 18px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               
+            }
+            th{
+                background-color: black;
+                color: white;
+            }
+            .gray{
+                background-color: grey;
+            }
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+            }
+            #btn1{
+                background-color: red;
+                text-align: center;
+                font-size: 18px;
+                width: 150px;
+                height: 40px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                border: 2px solid red;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            #clg{
+                background-color: black;
+                color: white;
+                border: 2px solid black;
+                text-align: center;
+                font-size: 18px;
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                width: 300px;
+                height: 40px;
+                 padding-left: 20px;
+                padding-right: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center;"> <h1 style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif">List of Program allocated to each student</h1> </div>
+        <table align="center">
+            <tr>
+                <th>Student Id</th>
+                <th>Name</th>
+                <th>E mail</th>
+                <th>Rank</th>
+                <th>Marks</th>
+                <th>Program Allocated</th>
+            </tr>
+            
+            SPLIT_HERE
+        
+        </table>
+        <br>
+        <div class="container">
+                <div class="button-wrapper">
+                  <button id="btn1">Print</button>
+                  <button id="clg">See Individual College List</button>
+                </div>
+              </div>
+    </body>
+</html>

@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.io.FileReader;
 import java.util.Iterator;
 import java.util.Map;
-
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.*;
@@ -25,7 +24,6 @@ public class InputThread extends Thread {
     Student parseToStudent(JSONObject JO) {
 
         ArrayList<String> preferences = new ArrayList();
-
         Iterator itr = ((JSONArray) JO.get("collegePreferences")).iterator();
         while (itr.hasNext())
             preferences.add((String) itr.next());
@@ -46,26 +44,22 @@ public class InputThread extends Thread {
             if (type == TYPE.STUDENT) {
                 Object obj = new JSONParser().parse(new FileReader("Students.json"));
                 Iterator itr = ((JSONArray) ((JSONObject) obj).get("Students")).iterator();
-
                 while (itr.hasNext()) {
                     JSONObject JO = (JSONObject) itr.next();
                     Student S = parseToStudent(JO);
                     outputArray.add(S);
                 }
-
                 listener.onListReady(outputArray);
 
             } else {
 
                 Object obj = new JSONParser().parse(new FileReader("Programs.json"));
                 Iterator itr = ((JSONArray) ((JSONObject) obj).get("Programs")).iterator();
-
                 while (itr.hasNext()) {
                     JSONObject JO = (JSONObject) itr.next();
                     Program S = parseToProgram(JO);
                     outputArray.add(S);
                 }
-
                 listener.onListReady(outputArray);
 
             }
@@ -81,5 +75,4 @@ public class InputThread extends Thread {
     public void setOnInputCompleteListener(OnInputCompleteListener listener) {
         this.listener = listener;
     }
-
 }

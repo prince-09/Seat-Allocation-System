@@ -77,5 +77,4 @@ public class Program {
         this.programName = degree + " in " + branch;
         this.seatRemaining = seatRemaining;
     }
-
 }
